@@ -8,6 +8,8 @@ __pycache__/
 # Build outputs
 **/dist/
 **/build/
+**/.gradle/
+**/local.properties
 
 # OS/editor
 .DS_Store

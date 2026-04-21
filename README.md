@@ -31,6 +31,10 @@ Output files:
 - For live remote feed, enable GitHub Pages on the `gh-pages` branch after the workflow runs.
 - If endpoints return 404, app will still boot using fallback sample channels.
 
+## Test on Fire TV
+
+- Follow the full APK build and install guide in `docs/TEST_ON_FIRETV.md`.
+
 ## Next implementation chunks
 
 - Add ExoPlayer playback screen and channel switching
