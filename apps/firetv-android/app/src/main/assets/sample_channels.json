@@ -1,0 +1,62 @@
+{
+    "version": 1,
+    "channels": [
+        {
+            "id": "AajTak.in",
+            "name": "Aaj Tak",
+            "country": "IN",
+            "categories": [
+                "news"
+            ],
+            "is_hindi_priority": true,
+            "streams": [
+                {
+                    "url": "https://example-streams.invalid/aajtak/master.m3u8",
+                    "title": "Aaj Tak HD",
+                    "label": null,
+                    "quality": "1080p",
+                    "http_referrer": null,
+                    "user_agent": null
+                }
+            ]
+        },
+        {
+            "id": "ABPNews.in",
+            "name": "ABP News",
+            "country": "IN",
+            "categories": [
+                "news"
+            ],
+            "is_hindi_priority": true,
+            "streams": [
+                {
+                    "url": "https://example-streams.invalid/abpnews/master.m3u8",
+                    "title": "ABP News",
+                    "label": null,
+                    "quality": "720p",
+                    "http_referrer": null,
+                    "user_agent": null
+                }
+            ]
+        },
+        {
+            "id": "DDIndia.in",
+            "name": "DD India",
+            "country": "IN",
+            "categories": [
+                "news"
+            ],
+            "is_hindi_priority": false,
+            "streams": [
+                {
+                    "url": "https://example-streams.invalid/ddindia/master.m3u8",
+                    "title": "DD India",
+                    "label": null,
+                    "quality": "720p",
+                    "http_referrer": null,
+                    "user_agent": null
+                }
+            ]
+        }
+    ]
+}
