@@ -13,11 +13,12 @@ Native Android TV app for Amazon Fire TV Stick.
 
 - Base Android app scaffold
 - Leanback launcher manifest setup
-- Minimal Compose screen
+- Catalog list rendering from channel feed data
+- Remote JSON feed loading with local asset fallback
+- Basic click-to-play live playback screen with ExoPlayer
 
 ## Next chunks
 
-- Add feed models and Retrofit service
-- Fetch curated feed from pipeline output endpoint
-- Render channel rows with D-pad friendly navigation
-- Add playback screen with ExoPlayer
+- Improve D-pad focus behavior for TV-first navigation
+- Add Favorites and Recently Watched persistence
+- Add stream retry/fallback behavior in player
