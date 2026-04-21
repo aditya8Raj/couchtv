@@ -38,7 +38,7 @@ class RemoteChannelRepository(
             .get()
             .build()
 
-        client.newCall(request).execute().use { response ->
+        return client.newCall(request).execute().use { response ->
             if (!response.isSuccessful) {
                 throw IOException("Remote feed request to $url failed with HTTP ${response.code}")
             }
